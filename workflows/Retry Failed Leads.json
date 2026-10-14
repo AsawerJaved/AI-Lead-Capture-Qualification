@@ -163,7 +163,7 @@
         "content": "## AI Retry Chain",
         "height": 432,
         "width": 1984,
-        "color": 4
+        "color": "#193232"
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
@@ -325,8 +325,8 @@
       "parameters": {
         "content": "## Notifications Retry Chain",
         "height": 336,
-        "width": 1712,
-        "color": "#300D0D"
+        "width": 1648,
+        "color": "#323535"
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
@@ -357,7 +357,7 @@
       "typeVersion": 1,
       "position": [
         -1024,
-        80
+        96
       ],
       "id": "77b26798-01a4-4e67-bb3e-8b76f5ddbf5a",
       "name": "Find Failed Acks",
@@ -395,7 +395,7 @@
       "typeVersion": 1,
       "position": [
         -576,
-        -16
+        0
       ],
       "id": "20edd506-b177-48fd-8052-464785a89276",
       "name": "Mark Ack Attempt",
@@ -420,7 +420,7 @@
       "typeVersion": 2.2,
       "position": [
         -352,
-        -16
+        0
       ],
       "id": "36abb75c-24ef-44e6-8241-96d7079538b2",
       "name": "Resend Acknowledgment",
@@ -438,12 +438,12 @@
         "content": "## Acknowledgment Retry Chain",
         "height": 336,
         "width": 1424,
-        "color": "#040620"
+        "color": "#193232"
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         -1312,
-        -64
+        -48
       ],
       "typeVersion": 1,
       "id": "ac3a3bb7-360a-4d08-ad8b-f0ac84116afb",
@@ -465,7 +465,7 @@
       "typeVersion": 1,
       "position": [
         -1024,
-        480
+        496
       ],
       "id": "c7627985-9b2d-4769-8f64-68ce175fd434",
       "name": "Find Exhausted",
@@ -503,7 +503,7 @@
       "typeVersion": 1,
       "position": [
         -352,
-        384
+        400
       ],
       "id": "c4c95592-8d81-49fb-b172-80fb734d3b52",
       "name": "Mark Alerted:",
@@ -519,12 +519,12 @@
         "content": "## Exhausted Retries Alert Chain",
         "height": 352,
         "width": 1184,
-        "color": 2
+        "color": "#323535"
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         -1312,
-        336
+        352
       ],
       "typeVersion": 1,
       "id": "a3776566-2a3f-433f-b74a-8c359032fcd6",
@@ -556,7 +556,7 @@
       "typeVersion": 1,
       "position": [
         -128,
-        -16
+        0
       ],
       "id": "130c72b1-692e-44d0-a076-183ad6b23e8b",
       "name": "Update Ack Status",
@@ -623,7 +623,7 @@
       "typeVersion": 1.4,
       "position": [
         -1248,
-        80
+        96
       ],
       "id": "a3b42547-98d1-4d17-83b4-fc21f24033b7",
       "name": "Every 15 Min: Acknowledgments"
@@ -643,7 +643,7 @@
       "typeVersion": 1.4,
       "position": [
         -1248,
-        480
+        496
       ],
       "id": "86b6c81b-98e3-4b31-9aa2-46a22e703fc6",
       "name": "Every 15 Min: Exhausted"
@@ -677,7 +677,7 @@
       "typeVersion": 2.3,
       "position": [
         -800,
-        480
+        496
       ],
       "id": "78087c11-db0c-4d35-a12b-d5ac3dbe9fed",
       "name": "Any Exhausted?"
@@ -711,7 +711,7 @@
       "typeVersion": 2.3,
       "position": [
         -800,
-        80
+        96
       ],
       "id": "c12de3dc-78a0-46e0-92dc-4d6336d3efc1",
       "name": "Any Failed Acks?"
@@ -824,7 +824,7 @@
       "typeVersion": 2.2,
       "position": [
         -576,
-        384
+        400
       ],
       "id": "280dda9b-ede1-4978-9d16-5b530ed3ba21",
       "name": "Alert Admin: Retries Exhausted",
@@ -1098,7 +1098,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "4778ab28-9c84-4daa-a076-1c4e24c9b64a",
+  "versionId": "134e6a3f-8504-444a-953f-987273d7af28",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "487eb5dad50a5f9ea43f4deb674c4da3e3c9e37220271c660f0525974ab7a116"
