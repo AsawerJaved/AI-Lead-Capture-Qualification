@@ -1,0 +1,19 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+
+# Dependencies and local environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Logs and temporary files
+*.log
+.n8n/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,67 @@
+{
+  "name": "Error Alert",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b3eb5806-51a4-48e3-b72f-be4fe1bebdec",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "sendTo": "agency@example.com",
+        "subject": "=Workflow failed: {{ $json.workflow.name }}",
+        "emailType": "text",
+        "message": "=Execution: {{ $json.execution.id }} Failed node: {{ $json.execution.lastNodeExecuted }} Error: {{ $json.execution.error.message }} Link: {{ $json.execution.url }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "72e23412-81de-4981-bc72-970e94f93e51",
+      "name": "Notify Agency",
+      "webhookId": "4d646970-e27c-46a8-8060-6452a6674cef",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "rHq6j2RAIPdXMZtU",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Notify Agency",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "bddfb8d8-7183-4aad-a61c-d39949550fb8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "487eb5dad50a5f9ea43f4deb674c4da3e3c9e37220271c660f0525974ab7a116"
+  },
+  "nodeGroups": [],
+  "id": "a1UM5rZydCXspb3Q",
+  "tags": []
+}
